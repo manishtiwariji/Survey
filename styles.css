@@ -1,0 +1,87 @@
+/* General styles */
+body {
+  margin: 0; /* Removing default margin */
+  padding: 0; /* Removing default padding */
+  font-family: Arial, sans-serif; /* Setting default font family */
+}
+
+.dark-theme {
+  background-color: #333; /* Setting dark background color */
+  color: #fff; /* Setting light text color */
+}
+
+.container {
+  width: 70%; /* Setting container width */
+  margin: 50px auto; /* Centering container horizontally */
+  background-color: rgba(255, 255, 255, 0.1); /* Setting semi-transparent background color */
+  padding: 20px; /* Adding padding inside container */
+  border-radius: 10px; /* Adding rounded corners to container */
+}
+
+.center-text {
+  text-align: center; /* Centering text */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #222; /* Setting navbar background color */
+  color: #fff; /* Setting navbar text color */
+  padding: 10px; /* Adding padding inside navbar */
+  position: fixed; /* Fixing navbar at the top */
+  width: 100%; /* Setting navbar width */
+  top: 0; /* Positioning navbar at the top */
+  z-index: 1000; /* Setting navbar above other content */
+}
+
+.navbar-left {
+  float: left; /* Aligning content to the left */
+}
+
+.navbar-right {
+  float: right; /* Aligning content to the right */
+}
+
+.navbar-right a {
+  color: #fff; /* Setting navbar link color */
+  text-decoration: none; /* Removing underline from navbar links */
+}
+
+.navbar-right a:hover {
+  color: #ccc; /* Setting color of navbar links on hover */
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 10px; /* Adding space between form groups */
+}
+
+.form-group label {
+  display: inline-block; /* Displaying labels inline */
+  margin-bottom: 5px; /* Adding space below labels */
+}
+
+.form-group input[type="checkbox"],
+.form-group input[type="radio"] {
+  display: inline-block; /* Displaying checkboxes and radio buttons inline */
+  margin-right: 5px; /* Adding space between checkboxes and radio buttons */
+  vertical-align: middle; /* Aligning checkboxes and radio buttons vertically */
+}
+
+.form-group select,
+.form-group input,
+.form-group textarea {
+  width: calc(100% - 12px); /* Setting width of form elements */
+  padding: 8px; /* Adding padding inside form elements */
+  border: 1px solid #ccc; /* Adding border to form elements */
+  border-radius: 5px; /* Adding rounded corners to form elements */
+  box-sizing: border-box; /* Including padding and border in element's total width */
+}
+
+.submit-btn {
+  background-color: #4CAF50; /* Setting submit button background color */
+  color: white; /* Setting submit button text color */
+  padding: 10px 20px; /* Adding padding inside submit button */
+  border: none; /* Removing button border */
+  border-radius: 5px; /* Adding rounded corners to submit button */
+  cursor: pointer; /* Changing cursor to pointer on hover */
+}
